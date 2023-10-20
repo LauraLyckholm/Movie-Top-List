@@ -59,7 +59,7 @@ export const Details = () => {
     const backgroundImage = `https://image.tmdb.org/t/p/w1280${detail.backdrop_path}`;
     return (
       <section className="detail-page">
-        <BackButton text={"Movies"} />
+        <BackButton className={"homepageBtn"} text={"Movies"} />
         {/* Div that contains the background.image. Url and gradient is dynamically added here */}
         <div
           className="background"

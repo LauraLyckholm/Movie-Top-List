@@ -7,21 +7,17 @@
   background-size: cover;
 }
 
-.page-not-found h1 {
-  font-family: "FindingNemo";
-  color: white;
-  font-size: 30px;
+.error-content h1,
+.error-content h2 {
+  color: var(--primary);
 }
 
-.page-not-found h2 {
-  font-family: "FindingNemo";
-}
 
 .error-content {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.4);
-  max-width: 400px;
+  background-color: var(--secondary);
+  max-width: 600px;
   gap: 10px;
   padding: 20px;
   margin: 10px;
@@ -29,10 +25,11 @@
   align-items: center;
 }
 
-.error-content .back-button {
+
+.error-content .backBtn {
   position: static;
 }
 
-.error-content a.back-button {
-  margin: 0;
+.error-content a.backBtn {
+  margin: 2rem auto;
 }

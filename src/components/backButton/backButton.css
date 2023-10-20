@@ -1,15 +1,15 @@
-.back-button {
-    position: absolute; 
-    display: inline-flex;
-    align-items: center;
-    color: white;
+.backBtn {
+    color: var(--primary);
     font-weight: 700;
     text-decoration: none;
-    margin: 10px 0 0 50px; 
     filter: drop-shadow(2px 3px 4px rgb(0 0 0/.5));
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
 }
 
 .arrow {
     width: 30px;
     height: 30px;
+    margin-right: 8px;
 }

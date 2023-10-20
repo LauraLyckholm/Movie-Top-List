@@ -37,6 +37,10 @@
   overflow-y: auto;
 }
 
+.homepageBtn {
+  margin: 10px 0 0 50px;
+}
+
 /* ------------ MEDIA QUERIES ------------ */
 @media (min-width: 770px) {
   .detail-info-wrapper {
