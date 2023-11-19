@@ -9,7 +9,7 @@ export const PageNotFound = () => {
             <div className="error-content">
                 <h1>Sorry! It seems like that movie doesn&apos;t exist..🧐</h1>
                 <h2>Try again 🥰</h2>
-                <BackButton className={"backBtn"} text={" Back"} />
+                <BackButton className={"backBtn"} text={"Back"} />
             </div>
         </section>
     )
